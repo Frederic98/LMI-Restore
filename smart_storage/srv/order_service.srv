@@ -1,0 +1,9 @@
+string type
+int64 box
+---
+int64 box
+int64 row
+int64 column
+string message
+int8 error
+int8 isBusy

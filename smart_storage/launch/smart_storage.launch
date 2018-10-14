@@ -1,0 +1,5 @@
+<launch>
+    	<node pkg="smart_storage" type="motor_control_action_server.py" name="motor_control_active_server" output="screen"/>
+	<node pkg="smart_storage" type="SmartStorage_node.py" name="storage_node" output="screen"/>
+	<node pkg="smart_storage" type="storage_service_node.py" name="storage_service_node"/>
+</launch>
