@@ -65,6 +65,7 @@ void process_line(){
 void serialEvent(){
   while(Serial.available()){
     char c = Serial.read();
+    Serial.write(c);
     if(c == '\n'){
       serialBuffer[serialBufferPos] = 0;      // Terminate string with null characer
       process_line();                         // Process the gcode line
