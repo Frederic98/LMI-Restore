@@ -1,0 +1,7 @@
+MOC file - Right CODE!
+        //case 0: _t->on_Add_container_button_clicked(); break;
+        case 1: _t->on_Home_button_clicked(); break;
+        case 2: _t->on_AddContainer_button_clicked(); break;
+        //case 3: _t->on_AckAddContainerPage1_button_clicked(); break;
+        case 4: _t->on_Ack1AddContainer_button_clicked(); break;
+        case 5: _t->on_Skip1AddContainer_button_clicked(); break;

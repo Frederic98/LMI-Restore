@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Images/home.png</file>
+        <file>Images/Storage_unit_RC.png</file>
+        <file>Images/nut.jpg</file>
+        <file>Images/Storage unit empty robot side.png</file>
+        <file>Images/busy_1.PNG</file>
+        <file>Images/busy_2.PNG</file>
+        <file>Images/busy_3.PNG</file>
+        <file>Images/busy_4.PNG</file>
+        <file>Images/busy_5.PNG</file>
+        <file>Images/Succes_5.PNG</file>
+        <file>Images/Triple-dot_black.png</file>
+        <file>Images/verify-sign_green.png</file>
+    </qresource>
+</RCC>
