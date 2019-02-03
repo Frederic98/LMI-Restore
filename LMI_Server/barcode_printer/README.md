@@ -6,4 +6,5 @@ This script prints a 2D barcode (DataMatrix) with the written ID for the contain
 - brother_ql
 - elaphe3
 - PIL
+
 `pip3 install brother_ql elaphe3 pillow`
