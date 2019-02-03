@@ -1,3 +1,4 @@
+import glob
 from PIL import Image, ImageDraw, ImageFont
 from elaphe import barcode
 from brother_ql import BrotherQLRaster, create_label
@@ -9,7 +10,10 @@ if not TESTING:
     # Setup label printer
     be = backend_factory("linux_kernel")
     BrotherQLBackend = be['backend_class']
-    printer = BrotherQLBackend('/dev/usb/lp0')
+    devices = glob.glob('/dev/usb/lp*')
+    if not devices:
+        raise RuntimeError('Please plug in the label printer and rerun this script')
+    printer = BrotherQLBackend(devices[0])
 
 for id in range(1,11):
     text = '{:06}'.format(id)
